@@ -407,6 +407,21 @@ i:hover{
 
     .card-social{
         width: 90%;
-        border: 1px solid red;
+        padding: 0rem;
+        margin: 0.2rem;
+    }
+
+    .galeria{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagens{
+        width: 100%;
+        display: flex;
+        margin: 0;
     }
 }
