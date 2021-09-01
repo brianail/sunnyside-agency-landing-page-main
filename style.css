@@ -396,4 +396,17 @@ i:hover{
         align-items: center;
         justify-content: center;
     }
+
+    .cards-perfiil{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-social{
+        width: 90%;
+        border: 1px solid red;
+    }
 }
