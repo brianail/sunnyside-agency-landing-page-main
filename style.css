@@ -64,13 +64,6 @@ header {
     font-size: 1.4rem;
 }
 
-.especial{
-    background-color: white;
-    padding: 0.5rem;
-    color: black;
-    border-radius: 1.2rem;
-}
-
 .area-cards {
     width: 100%;
     display: flex;
