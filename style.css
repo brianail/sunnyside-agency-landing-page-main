@@ -7,18 +7,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     width: 100%;
     color: white;
     font-family: 'Fraunces', serif;
 
 }
 
-header{
+header {
     height: 100vh;
     background-image: url(/images/desktop/image-header.jpg);
     background-attachment: fixed;
@@ -27,14 +27,20 @@ header{
     background-repeat: no-repeat;
 }
 
-.container-header{
+#menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.container-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
 }
 
-.conteudo-header{
+.conteudo-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,27 +48,37 @@ header{
     padding: 1rem;
 }
 
-.conteudo-header h1{
+.conteudo-header h1 {
     color: white;
     font-size: 6rem;
     padding: 2rem;
     font-weight: 900;
 }
 
-#menu li{
+#menu li {
     display: inline;
     padding: 1rem;
-
 }
 
-.area-cards{
+#menu li a{
+    font-size: 1.4rem;
+}
+
+.especial{
+    background-color: white;
+    padding: 0.5rem;
+    color: black;
+    border-radius: 1.2rem;
+}
+
+.area-cards {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.cards{
+.cards {
     width: 50%;
     height: auto;
     box-sizing: border-box;
@@ -75,26 +91,26 @@ header{
     position: relative;
 }
 
-.cards img{
+.cards img {
     width: 100%;
 }
 
-.conteudo-texto{
+.conteudo-texto {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     text-align: left;
     margin-left: 25%;
 }
 
-.conteudo-texto h1{
+.conteudo-texto h1 {
     width: 70%;
     padding: 1rem 0;
     font-size: 3rem;
     font-weight: 900;
 }
 
-.conteudo-texto p{
+.conteudo-texto p {
     width: 80%;
     font-size: 1.1rem;
     font-weight: 100;
@@ -102,7 +118,7 @@ header{
     color: hsla(210, 2%, 63%, 0.836);
 }
 
-#amarelo{
+#amarelo {
     font-size: 1.1rem;
     font-weight: 200;
     color: black;
@@ -110,7 +126,7 @@ header{
     border-bottom: 4px solid hsl(51, 100%, 49%);
 }
 
-#coral{
+#coral {
     font-size: 1.1rem;
     font-weight: 200;
     color: black;
@@ -118,44 +134,44 @@ header{
     border-bottom: 4px solid hsl(7, 99%, 70%);
 }
 
-.informacao{
+.informacao {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    top: 25rem;
-    width: 60%;
+    bottom: 2.5rem;
+    width: 40%;
     text-align: center;
 }
 
-#graphic{
+#graphic {
     font-size: 1.6rem;
     font-weight: 800;
     padding: 1rem;
     color: #285950;
 }
 
-#photography{
+#photography {
     font-size: 1.6rem;
     font-weight: 800;
     padding: 1rem;
     color: #215972;
 }
 
-.green{
+.green {
     font-weight: 200;
     font-size: 1.2rem;
     color: #285950;
 }
 
-.blue{
+.blue {
     font-weight: 200;
     font-size: 1.2rem;
     color: #215972;
 }
 
-.cards-perfiil{
+.cards-perfiil {
     width: 100%;
     height: 70vh;
     background-color: white;
@@ -166,7 +182,7 @@ header{
     align-items: center;
 }
 
-.card-social{
+.card-social {
     width: 50%;
     height: 60vh;
     margin: 1rem;
@@ -180,7 +196,7 @@ header{
     gap: 1rem;
 }
 
-.card-social p{
+.card-social p {
     width: 90%;
     text-align: center;
     font-size: 1.1rem;
@@ -189,48 +205,48 @@ header{
     color: hsl(213, 9%, 39%);
 }
 
-.card-social h2{
+.card-social h2 {
     color: hsl(212, 27%, 19%);
     font-size: 1.8rem;
     font-style: oblique;
     padding: 1rem 0 0 0;
 }
 
-.card-social span{
+.card-social span {
     color: hsl(213, 9%, 39%);
     font-size: 1rem;
     font-weight: 100;
 }
 
-.foto-perfil{
+.foto-perfil {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.foto-perfil img{
+.foto-perfil img {
     width: 60%;
     border-radius: 100%;
 }
 
-.galeria{
+.galeria {
     width: 100%;
+    display: flex;
+}
+
+.imagens {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin: 0;
-}
-
-.imagens{
     width: 50%;
     height: 50%;
-} 
+}
 
-.imagens img{
+.imagens img {
     width: 100%;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,7 +257,7 @@ footer{
 
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -250,11 +266,12 @@ footer{
 
 }
 
-.logo-footer img{
+.logo-footer img {
     width: 200px;
-    color: hsl(167, 40%, 24%);}
+    color: hsl(167, 40%, 24%);
+}
 
-.container ul li{
+.container ul li {
     display: inline;
     list-style: none;
     font-weight: 300;
@@ -263,39 +280,38 @@ footer{
 
 }
 
-.container ul li a{
+.container ul li a {
     color: hsl(168, 34%, 41%);
     text-decoration: none;
 }
 
-.container ul li a:hover{
+.container ul li a:hover {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
-i{
+i {
     color: hsl(168, 34%, 41%);
     font-size: 1.6rem;
     padding: 1rem;
 }
 
-i:hover{
+i:hover {
     color: rgb(255, 255, 255);
 }
 
 
 @media (max-width: 780px) {
-    body{
+    body {
         width: 100%;
     }
 
-    header{
+    header {
         height: 100vh;
         background-image: url(/images/mobile/image-header.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: bottom;
-
     }
 
     #menu {
@@ -303,46 +319,46 @@ i:hover{
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        width: 50%;
+        width: 90%;
         height: 0px;
-        margin: 2rem;   
+        margin: 1rem;
         position: absolute;
-        top: 80px;
-        right: 0px;
+        top: 50px;
+        right: 0;
         border-radius: 2rem;
-        background: #ffffffaf;
+        background: #000000e7;
         color: rgb(0, 0, 0);
-        transition: 0.6s;
+        transition: 1s;
         z-index: 1000;
         list-style: none;
         visibility: hidden;
         overflow-y: hidden;
     }
-    
-    #menu li{
+
+    #menu li {
         padding: 1rem;
         font-weight: 100;
     }
-    
+
     #menu a {
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.8em;
         padding: 1rem 0;
         margin: 0 1rem;
         color: rgb(0, 0, 0);
     }
-    
+
     #menu li a:hover {
         padding: 0.1rem;
-        border-bottom: 2px solid rgb(0, 0, 0);
+        border-bottom: 3px solid rgb(255, 255, 255);
     }
-    
+
     #nav.active #menu {
         height: calc(40vh);
         visibility: visible;
         overflow-y: auto;
     }
-    
+
     #btn-mobile {
         display: flex;
         padding: 0.8rem 1rem;
@@ -352,12 +368,12 @@ i:hover{
         cursor: pointer;
         gap: 0.5rem;
     }
-    
+
     #hamburger {
         border-top: 2px solid white;
         width: 25px;
     }
-    
+
     #hamburger::after,
     #hamburger::before {
         content: "";
@@ -369,35 +385,55 @@ i:hover{
         transition: 0.6s;
         position: relative;
     }
-    
+
     #nav.active #hamburger {
         border-top-color: transparent;
     }
-    
+
     #nav.active #hamburger::before {
         transform: rotate(140deg);
     }
-    
+
     #nav.active #hamburger::after {
         transform: rotate(-140deg);
         top: -7px;
     }
 
-    .area-cards{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
+    .conteudo-header h1 {
+        font-size: 5rem;
+        padding: 2rem;
+        text-align: center;
     }
 
-    .cards{
-        width: 100%;
-        height: 100%;
+    .flecha {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .cards-perfiil{
+    .area-cards {
+        display: flex;
+    }
+
+    .cards {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards img {
+        margin: 0;
+        width: 100%;
+    }
+
+    .conteudo-texto {
+        width: 100%;
+        height: 418px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .cards-perfiil {
         height: auto;
         display: flex;
         align-items: center;
@@ -405,13 +441,13 @@ i:hover{
         flex-direction: column;
     }
 
-    .card-social{
+    .card-social {
         width: 90%;
         padding: 0rem;
         margin: 0.2rem;
     }
 
-    .galeria{
+    .galeria {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -419,7 +455,7 @@ i:hover{
         flex-direction: column;
     }
 
-    .imagens{
+    .imagens {
         width: 100%;
         display: flex;
         margin: 0;
