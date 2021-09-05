@@ -127,43 +127,6 @@ header {
     border-bottom: 4px solid hsl(7, 99%, 70%);
 }
 
-.informacao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    bottom: 2.5rem;
-    width: 40%;
-    text-align: center;
-}
-
-#graphic {
-    font-size: 1.6rem;
-    font-weight: 800;
-    padding: 1rem;
-    color: #285950;
-}
-
-#photography {
-    font-size: 1.6rem;
-    font-weight: 800;
-    padding: 1rem;
-    color: #215972;
-}
-
-.green {
-    font-weight: 200;
-    font-size: 1.2rem;
-    color: #285950;
-}
-
-.blue {
-    font-weight: 200;
-    font-size: 1.2rem;
-    color: #215972;
-}
-
 .cards-perfiil {
     width: 100%;
     height: 70vh;
@@ -409,12 +372,12 @@ i:hover {
     }
 
     .cards {
+        padding: o;
         width: 100%;
         height: auto;
     }
 
     .cards img {
-        margin: 0;
         width: 100%;
     }
 
@@ -448,9 +411,9 @@ i:hover {
         flex-direction: column;
     }
 
+
     .imagens {
         width: 100%;
         display: flex;
-        margin: 0;
     }
 }
