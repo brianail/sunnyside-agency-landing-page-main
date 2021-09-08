@@ -1,24 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     border: 0;
+    box-sizing: border-box
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
 
 body {
     width: 100%;
     color: white;
     font-family: 'Fraunces', serif;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 header {
+    width: 100%;
     height: 100vh;
     background-image: url(/images/desktop/image-header.jpg);
     background-attachment: fixed;
@@ -129,7 +130,7 @@ header {
 
 .cards-perfiil {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     background-color: white;
     color: black;
     display: flex;
@@ -203,6 +204,7 @@ header {
 }
 
 footer {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,17 +259,18 @@ i:hover {
 }
 
 
-@media (max-width: 780px) {
-    body {
+@media (max-width: 700px) {
+    body{
         width: 100%;
     }
 
     header {
-        height: 100vh;
+        width: 100%;
         background-image: url(/images/mobile/image-header.jpg);
+        background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        background-position: bottom;
+        background-position: center;
     }
 
     #menu {
@@ -398,7 +401,7 @@ i:hover {
     }
 
     .card-social {
-        width: 90%;
+        width: 100%;
         padding: 0rem;
         margin: 0.2rem;
     }
@@ -415,5 +418,9 @@ i:hover {
     .imagens {
         width: 100%;
         display: flex;
+    }
+
+    footer{
+        width: 100%;
     }
 }
