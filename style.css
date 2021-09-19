@@ -146,8 +146,8 @@ header {
 }
 
 .card-social {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 60vh;
     margin: 1rem;
     padding: 2rem;
     box-sizing: border-box;
