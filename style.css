@@ -146,10 +146,10 @@ header {
 }
 
 .card-social {
-    width: 50%;
-    height: 60vh;
+    width: auto;
+    height: auto;
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -160,7 +160,7 @@ header {
 }
 
 .card-social p {
-    width: 90%;
+    width: auto;
     text-align: center;
     font-size: 1.1rem;
     padding: 1rem;
@@ -265,7 +265,7 @@ i:hover {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 
     body {
         width: 100%;
